@@ -171,7 +171,7 @@ public class MainActivity extends ActionBarActivity {
                             Log.e("birdbottomY", String.valueOf(birdbottomY));
                             Log.e("topbottomY", String.valueOf(topbottomY));
                             Log.e("bottomtopY", String.valueOf(bottomtopY));
-                            if (birdtopY + 10 < topbottomY || birdbottomY - 10 > bottomtopY) {
+                            if (birdtopY + 8 < topbottomY || birdbottomY - 8 > bottomtopY) {
                                 life--;
                             }
                         }
@@ -183,7 +183,7 @@ public class MainActivity extends ActionBarActivity {
                             Log.e("birdbottomY", String.valueOf(birdbottomY));
                             Log.e("topbottomY2", String.valueOf(topbottomY2));
                             Log.e("bottomtopY2", String.valueOf(bottomtopY2));
-                            if (birdtopY + 10 < topbottomY2 || birdbottomY - 10 > bottomtopY2) {
+                            if (birdtopY + 8 < topbottomY2 || birdbottomY - 8 > bottomtopY2) {
                                 life--;
                             }
                         }
@@ -224,6 +224,8 @@ public class MainActivity extends ActionBarActivity {
                 });
             }
         }, 0, 10);
+
+
     }
 
 
